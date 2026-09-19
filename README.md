@@ -4,9 +4,9 @@
 
 ## 项目列表
 
-| 项目 | 内容 | 状态 |
-| --- | --- | --- |
-| [project-01-image-video-detection](project-01-image-video-detection/) | 基于 YOLOv8 和 OpenCV 的图片、视频目标检测 | 周一 | 已完成 |
+| 项目 | 内容 | 时间 | 状态 |
+| --- | --- | --- | --- |
+| [project-01-image-video-detection](project-01-image-video-detection/) | 基于 YOLOv8 和 OpenCV 的图片、视频目标检测 | week1 | 已完成 |
 
 ## 开发环境
 
