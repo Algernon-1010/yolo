@@ -1,0 +1,6 @@
+.idea/
+__pycache__/
+*.pyc
+data/*.mp4
+detected.mp4
+*.pt
