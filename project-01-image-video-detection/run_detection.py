@@ -6,9 +6,10 @@ from ultralytics import YOLO
 # 加载 YOLO 模型
 model = YOLO(r"D:\ultralytics-main\ultralytics-main\models\yolov8n.pt")
 
-# 打开输入视频
-video_path = "data/input.mp4"
-cap = cv2.VideoCapture(video_path)
+# 以脚本所在目录为基准，避免从不同工作目录运行时找不到视频。
+project_dir = Path(__file__).resolve().parent
+video_path = project_dir / "data" / "input.mp4"
+cap = cv2.VideoCapture(str(video_path))
 
 if not cap.isOpened():
     raise RuntimeError(f"无法打开视频：{video_path}")
@@ -18,9 +19,9 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-output_path = "detected.mp4"
+output_path = project_dir / "detected.mp4"
 writer = cv2.VideoWriter(
-    output_path,
+    str(output_path),
     cv2.VideoWriter_fourcc(*"mp4v"),
     fps,
     (width, height)

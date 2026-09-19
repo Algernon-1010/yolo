@@ -1,27 +1,21 @@
-# YOLO + OpenCV 目标检测
+# YOLO 学习项目
 
-## 项目简介
+本仓库记录 YOLO 目标检测方向的学习与实践。每个子目录是一个独立、可运行的项目。
 
-使用 YOLOv8 和 OpenCV 实现图片与视频目标检测。
+## 项目列表
 
-## 环境
+| 项目 | 内容 | 状态 |
+| --- | --- | --- |
+| [project-01-image-video-detection](project-01-image-video-detection/) | 基于 YOLOv8 和 OpenCV 的图片、视频目标检测 | 已完成 |
+
+## 开发环境
 
 - Python 3.12
 - Ultralytics 8.4.137
 - OpenCV 5.0.0
 
-## 功能
+## 后续计划
 
-- 对图片进行目标检测
-- 对视频逐帧进行目标检测
-- 输出带检测框的视频结果
-
-## 运行方式
-
-```bash
-python run_detection.py
-```
-
-## 实验结果
-
-使用 YOLOv8n 预训练模型对交通场景进行检测，可识别 person、car、bus、bicycle 等类别。
+1. 加入检测类别和平均置信度统计。
+2. 使用自定义数据集训练 YOLO 模型。
+3. 将检测结果接入机器人感知任务。
