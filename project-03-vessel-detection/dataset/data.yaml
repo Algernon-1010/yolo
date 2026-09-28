@@ -1,0 +1,10 @@
+path: .
+train: images/train
+val: images/val
+
+names:
+  0: construction_vessel
+  1: cargo_vessel
+  2: passenger_vessel
+  3: small_vessel
+  4: other_vessel

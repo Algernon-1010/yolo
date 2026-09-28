@@ -1,0 +1,5 @@
+construction_vessel
+cargo_vessel
+passenger_vessel
+small_vessel
+other_vessel
