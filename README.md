@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | [project-01-image-video-detection](project-01-image-video-detection/) | 基于 YOLOv8 和 OpenCV 的图片、视频目标检测 | Week1 | 已完成 |
 | [project-02-traffic-perception-analysis](project-02-traffic-perception-analysis/) | 交通环境下的目标跟踪、越线计数与置信度统计 | Week1 | 完善中 |
+| [project-03-vessel-detection](project-03-vessel-detection/) | 船舶视频抽帧、预标注、YOLO 训练与评估 | Week2 | 已完成环境验证 |
 
 ## 开发环境
 
